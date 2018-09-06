@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <PackageId>esdm.LinqToQuerystring.Core</PackageId>
+    <VersionPrefix>0.7.2</VersionPrefix>
+    <Description>A fork of https://github.com/s2fx/LinqToQuerystring</Description>
+    <PackageProjectUrl>https://github.com/exeGesIS-SDM/LinqToQuerystring</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+    <Folder Include="Utils\" />
+    <Folder Include="TreeNodes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antlr3.Runtime" Version="3.5.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <DefaultItemExcludes>$(DefaultItemExcludes);*.g;</DefaultItemExcludes>
+    <RootNamespace>LinqToQuerystring</RootNamespace>
+  </PropertyGroup>
+</Project>

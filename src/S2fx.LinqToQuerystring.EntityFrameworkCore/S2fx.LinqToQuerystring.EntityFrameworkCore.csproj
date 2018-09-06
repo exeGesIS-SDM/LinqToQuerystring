@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <PackageId>esdm.LinqToQuerystring.EFCore</PackageId>
+    <VersionPrefix>0.7.2</VersionPrefix>
+    <Description>A fork of https://github.com/s2fx/LinqToQuerystring</Description>
+    <PackageProjectUrl>https://github.com/exeGesIS-SDM/LinqToQuerystring</PackageProjectUrl>
+    <RootNamespace>LinqToQuerystring.EntityFrameworkCore</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\S2fx.LinqToQuerystring.Core\S2fx.LinqToQuerystring.Core.csproj" />
+  </ItemGroup>
+
+</Project>

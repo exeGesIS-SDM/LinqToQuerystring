@@ -1,0 +1,13 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <PackageId>S2fx.LinqToQuerystring.EntityFrameworkCore</PackageId>
+    <Title>Provides support for features specific to Entity Framework Core in Linq to Querystring</Title>
+    <Summary></Summary>
+    <Description>Provides support for features specific to Entity Framework Core in Linq to Querystring</Description>
+    <PackageTags>odata;querystring;linq;entityframework;entityframeworkcore;efcore</PackageTags>
+  </PropertyGroup>
+
+  <Import Project="../../Shared.props" />
+
+</Project>

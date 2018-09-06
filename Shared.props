@@ -1,0 +1,25 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <Copyright>Pete Smith 2013</Copyright>
+    <Authors>Roysvork</Authors>
+    <PackageProjectUrl>https://github.com/s2fx/LinqToQuerystring</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/s2fx/LinqToQuerystring/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <PackageTags>odata;linqtoquerystring;linq</PackageTags>
+    <VersionPrefix>0.7.2</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>portable</DebugType>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+  </PropertyGroup>
+
+</Project>

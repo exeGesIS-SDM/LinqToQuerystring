@@ -1,0 +1,13 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <PackageId>S2fx.LinqToQuerystring.Core</PackageId>
+    <Title>Fork of beyond-code-github/LinqToQuerystring from Roysvork with many enhancements, targeting .Net Core 2 / .Net Standard 2.0 / .Net 4.6.1+</Title>
+    <Summary></Summary>
+    <Description>Linq to Querystring is an expression parser for .NET that aims to provide a lightweight subset of the OData URI Specification</Description>
+    <PackageTags>odata;querystring;linq</PackageTags>
+  </PropertyGroup>
+
+  <Import Project="../../Shared.props" />
+
+</Project>
